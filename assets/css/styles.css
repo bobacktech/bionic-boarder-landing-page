@@ -189,22 +189,42 @@ nav {
   color: white;
 }
 
-/* App Preview Section */
-.app-preview {
+/* About Section */
+.about {
   padding: 5rem 5%;
-  background-color: #000000;
+  background-color: #111111;
+  color: white;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
   text-align: center;
-}
-
-.app-preview h2 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
   color: #00ff88;
-  margin-bottom: 2rem;
 }
 
-.app-preview img {
-  max-width: 300px;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+.about-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.about-text {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white;
+  line-height: 1.8;
 }
 
 /* Footer */
