@@ -15,7 +15,7 @@ const repos = [
 {
   name: 'Bionic Boarder VESC BLDC',
   description: '',
-  url: 'https://github.com/bobacktech/bionic-boarder-vesc-bldc',
+  url: 'https://github.com/bobacktech/bionic-boarder-vesc-bldc/tree/bionic_boarder_release_6_02',
   comingSoon: false
 }];
 
